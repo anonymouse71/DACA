@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- SPANISH STRINGS -->
+    <string name="app_name">Daca</string>
+    <string name="action_settings">Acerca De</string>
+    <string name="newBorr">Nuevo Prestamo</string>
+    <string name="showBorr">Ver Prestamos</string>
+    <string name="name">Contacto:</string>
+    <string name="borrow">Objeto prestado:</string>
+    <string name="date">Fecha de devolución:</string>
+    <string name="chooseDate">Elige la fecha</string>
+    <string name="setData">"            INTRODUZCA LOS DATOS</string>
+    <string name="objectBorr">Objeto Prestado</string>
+    <string name="selectContact">Selecciona un Contacto</string>
+    <string name="showLocationGPS">Muestra la Ubicación GPS</string>
+    <string name="dateOff">Fecha de Devolución</string>
+    <string name="alarm">Agregar Alarma al Calendario del Movil</string>
+    <string name="add">AÑADIR</string>
+    <string name="showLoc">Ver la Localización del Prestamo</string>
+    <string name="delete">Borrar el Prestamo</string>
+
+</resources>

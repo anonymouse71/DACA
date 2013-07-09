@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setData"
+        android:textColor="#33B5E5"
+        android:textSize="20sp"
+        android:typeface="sans" />
+
+    <EditText
+        android:id="@+id/person_object"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:hint="@string/objectBorr"
+        android:imeOptions="actionDone"
+        android:inputType="textCapWords"
+        android:singleLine="true"
+        android:textColor="#33B5E5"
+        android:textColorHint="#33B5E5" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="5dp"
+        android:background="#33B5E5"
+        android:onClick="onClickSelectContact"
+        android:text="@string/selectContact"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/text_Contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#33B5E5" />
+
+    <Button
+        android:id="@+id/btnShowLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="5dp"
+        android:background="#33B5E5"
+        android:onClick="onClickSelectLocation"
+        android:text="@string/showLocationGPS"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/text_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#33B5E5" />
+
+    <Button
+        android:id="@+id/buttonDate1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="5dp"
+        android:background="#33B5E5"
+        android:onClick="onClickSelectDate"
+        android:text="@string/dateOff"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/text_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#33B5E5" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alarm"
+        android:textColor="#33B5E5" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dip"
+        android:layout_marginLeft="8dip"
+        android:layout_marginRight="8dip"
+        android:layout_marginTop="5dp"
+        android:background="#99CC00"
+        android:onClick="onClickAdd"
+        android:text="@string/add"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
